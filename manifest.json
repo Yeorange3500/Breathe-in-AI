@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini 伸展助手",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://gemini.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
